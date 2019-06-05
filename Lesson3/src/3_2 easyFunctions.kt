@@ -1,4 +1,6 @@
-fun <T> joinToString(
+import join.joinToString
+
+/*fun <T> joinToString(
     collection: Collection<T>,
     separator: String = ", ",
     prefix: String = "",
@@ -11,7 +13,7 @@ fun <T> joinToString(
     }
     result.append(postfix)
     return result.toString()
-}
+}*/
 
 var opCount = 0
 
